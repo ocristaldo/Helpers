@@ -42,9 +42,6 @@ alias svi='sudo vi'
 alias vis='vim "+set si"'
 alias edit='vim'
 
-## Services
-alias whatsup='service --status-all'  
-
 ## GIT
 alias gs='git status'
 alias gb='git branch'  
