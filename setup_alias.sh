@@ -52,17 +52,8 @@ alias gr='git remote -v'
 
 EOF
 )
-if [ $# -eq 0 ]
-  then
-    echo "No arguments supplied, please choose one of them : bash or zsh"
-elif [ "$1" == "bash" ]; then
-    shift
-    echo "${aliases}" >> $HOME/.bashrc
-    source $HOME/.bashrc
-    echo "Done, open a new terminal"
-elif [ "$1" == "zsh" ]; then
-    shift
-    echo "${aliases}" >> $HOME/.zshrc
-    source $HOME/.zshrc
-    echo "Done, open a new terminal"
-fi
+
+shift
+echo "${aliases}" >> $HOME/.bashrc
+source $HOME/.bashrc
+echo "Done, open a new terminal"
