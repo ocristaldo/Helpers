@@ -1,7 +1,5 @@
 #!/bin/bash
-
 aliases=$(cat <<EOF
-
 ## Colorize the ls output ##
 alias ls='ls -CF --color=auto'
  
