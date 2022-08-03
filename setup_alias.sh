@@ -36,12 +36,6 @@ alias mount='mount |column -t'
 alias h='history'
 alias j='jobs -l'
 
-## Path and date
-alias path='echo -e ${PATH//:/\\n}'
-alias now='date +"%T"'
-alias nowtime=now
-alias nowdate='date +"%d-%m-%Y"'
-
 ## Use vim
 alias vi=vim
 alias svi='sudo vi'
