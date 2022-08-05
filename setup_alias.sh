@@ -47,6 +47,9 @@ alias gs='git status'
 alias gb='git branch'  
 alias gr='git remote -v'
 
+## IP coloring by default
+alias ip='ip -c'
+
 EOF
 )
 
